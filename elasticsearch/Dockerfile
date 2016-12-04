@@ -1,4 +1,4 @@
-FROM elasticsearch:latest
+FROM elasticsearch:2
 
 RUN plugin install license
 RUN plugin install watcher
